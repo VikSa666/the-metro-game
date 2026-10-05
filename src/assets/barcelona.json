@@ -1,0 +1,957 @@
+{
+  "id": "barcelona",
+  "name": "Barcelona",
+  "stations": [
+    {
+      "id": "hospital-de-bellvitge",
+      "name": "Hospital de Bellvitge",
+      "aliases": ["hospitaldebellvitge"]
+    },
+    {
+      "id": "bellvitge",
+      "name": "Bellvitge",
+      "aliases": ["bellvitge"]
+    },
+    {
+      "id": "av-carrilet",
+      "name": "Av. Carrilet",
+      "aliases": ["avcarrilet", "carrilet"]
+    },
+    {
+      "id": "rambla-just-oliveras",
+      "name": "Rambla Just Oliveras",
+      "aliases": ["ramblajustoliveras", "justoliveras"]
+    },
+    {
+      "id": "can-serra",
+      "name": "Can Serra",
+      "aliases": ["canserra"]
+    },
+    {
+      "id": "florida",
+      "name": "Florida",
+      "aliases": ["florida"]
+    },
+    {
+      "id": "torrassa",
+      "name": "Torrassa",
+      "aliases": ["torrassa"]
+    },
+    {
+      "id": "santa-eulalia",
+      "name": "Santa Eulàlia",
+      "aliases": ["santaeulalia"]
+    },
+    {
+      "id": "mercat-nou",
+      "name": "Mercat Nou",
+      "aliases": ["mercatnou"]
+    },
+    {
+      "id": "placa-de-sants",
+      "name": "Plaça de Sants",
+      "aliases": ["placadesants", "plazadesants"]
+    },
+    {
+      "id": "hostafrancs",
+      "name": "Hostafrancs",
+      "aliases": ["hostafrancs"]
+    },
+    {
+      "id": "espanya",
+      "name": "Espanya",
+      "aliases": ["espanya", "espana"]
+    },
+    {
+      "id": "rocafort",
+      "name": "Rocafort",
+      "aliases": ["rocafort"]
+    },
+    {
+      "id": "urgell",
+      "name": "Urgell",
+      "aliases": ["urgell"]
+    },
+    {
+      "id": "universitat",
+      "name": "Universitat",
+      "aliases": ["universitat", "universidad"]
+    },
+    {
+      "id": "catalunya",
+      "name": "Catalunya",
+      "aliases": [
+        "catalunya",
+        "cataluna",
+        "plcatalunya",
+        "placacatalunya",
+        "plazacatalunya"
+      ]
+    },
+    {
+      "id": "urquinaona",
+      "name": "Urquinaona",
+      "aliases": ["urquinaona"]
+    },
+    {
+      "id": "arc-de-triomf",
+      "name": "Arc de Triomf",
+      "aliases": ["arcdetriomf", "arcdetriunfo"]
+    },
+    {
+      "id": "marina",
+      "name": "Marina",
+      "aliases": ["marina"]
+    },
+    {
+      "id": "glories",
+      "name": "Glòries",
+      "aliases": ["glories"]
+    },
+    {
+      "id": "clot",
+      "name": "Clot",
+      "aliases": ["clot"]
+    },
+    {
+      "id": "navas",
+      "name": "Navas",
+      "aliases": ["navas"]
+    },
+    {
+      "id": "la-sagrera",
+      "name": "La Sagrera",
+      "aliases": ["lasagrera", "sagrera"]
+    },
+    {
+      "id": "fabra-i-puig",
+      "name": "Fabra i Puig",
+      "aliases": ["fabraipuig", "fabraipuiq"]
+    },
+    {
+      "id": "sant-andreu",
+      "name": "Sant Andreu",
+      "aliases": ["santandreu"]
+    },
+    {
+      "id": "torras-i-bages",
+      "name": "Torras i Bages",
+      "aliases": ["torrasibages", "torrasibages"]
+    },
+    {
+      "id": "trinitat-nova",
+      "name": "Trinitat Nova",
+      "aliases": ["trinitatnova"]
+    },
+    {
+      "id": "trinitat-vella",
+      "name": "Trinitat Vella",
+      "aliases": ["trinitatvella"]
+    },
+    {
+      "id": "baro-de-viver",
+      "name": "Baró de Viver",
+      "aliases": ["barodeviver"]
+    },
+    {
+      "id": "santa-coloma",
+      "name": "Santa Coloma",
+      "aliases": ["santacoloma"]
+    },
+    {
+      "id": "fondo",
+      "name": "Fondo",
+      "aliases": ["fondo"]
+    },
+
+    {
+      "id": "paral-lel",
+      "name": "Paral·lel",
+      "aliases": ["parallel", "paralel"]
+    },
+    {
+      "id": "sant-antoni",
+      "name": "Sant Antoni",
+      "aliases": ["santantoni"]
+    },
+    {
+      "id": "tetuan",
+      "name": "Tetuan",
+      "aliases": ["tetuan"]
+    },
+    {
+      "id": "monumental",
+      "name": "Monumental",
+      "aliases": ["monumental"]
+    },
+    {
+      "id": "sagrada-familia",
+      "name": "Sagrada Família",
+      "aliases": ["sagradafamilia", "sagradafamilia"]
+    },
+    {
+      "id": "encants",
+      "name": "Encants",
+      "aliases": ["encants"]
+    },
+    {
+      "id": "bac-de-roda",
+      "name": "Bac de Roda",
+      "aliases": ["bacderoda"]
+    },
+    {
+      "id": "sant-marti",
+      "name": "Sant Martí",
+      "aliases": ["santmarti"]
+    },
+    {
+      "id": "verneda",
+      "name": "Verneda",
+      "aliases": ["verneda"]
+    },
+    {
+      "id": "artiges-sant-adria",
+      "name": "Artigues | Sant Adrià",
+      "aliases": ["artigues", "santadria", "artiguesantadria"]
+    },
+    {
+      "id": "sant-roc",
+      "name": "Sant Roc",
+      "aliases": ["santroc"]
+    },
+    {
+      "id": "gorg",
+      "name": "Gorg",
+      "aliases": ["gorg"]
+    },
+    {
+      "id": "pep-ventura",
+      "name": "Pep Ventura",
+      "aliases": ["pepventura"]
+    },
+    {
+      "id": "badalona-pompeu-fabra",
+      "name": "Badalona Pompeu Fabra",
+      "aliases": ["badalonapompeufabra", "pompeufabra"]
+    },
+
+    {
+      "id": "zona-universitaria",
+      "name": "Zona Universitària",
+      "aliases": ["zonauniversitaria", "zonauniversitaria"]
+    },
+    {
+      "id": "palau-reial",
+      "name": "Palau Reial",
+      "aliases": ["palaureial"]
+    },
+    {
+      "id": "maria-cristina",
+      "name": "Maria Cristina",
+      "aliases": ["mariacristina"]
+    },
+    {
+      "id": "les-corts",
+      "name": "Les Corts",
+      "aliases": ["lescorts"]
+    },
+    {
+      "id": "placa-del-centre",
+      "name": "Plaça del Centre",
+      "aliases": ["placadelcentre", "plazadelcentro"]
+    },
+    {
+      "id": "sants-estacio",
+      "name": "Sants Estació",
+      "aliases": ["santsestacio", "santsestacion", "sants"]
+    },
+    {
+      "id": "tarragona",
+      "name": "Tarragona",
+      "aliases": ["tarragona"]
+    },
+    {
+      "id": "poble-sec",
+      "name": "Poble Sec",
+      "aliases": ["poblesec"]
+    },
+    {
+      "id": "drassanes",
+      "name": "Drassanes",
+      "aliases": ["drassanes"]
+    },
+    {
+      "id": "liceu",
+      "name": "Liceu",
+      "aliases": ["liceu", "liceo"]
+    },
+    {
+      "id": "passeig-de-gracia",
+      "name": "Passeig de Gràcia",
+      "aliases": ["passeigdegracia", "paseodegracia"]
+    },
+    {
+      "id": "diagonal",
+      "name": "Diagonal",
+      "aliases": ["diagonal"]
+    },
+    {
+      "id": "fontana",
+      "name": "Fontana",
+      "aliases": ["fontana"]
+    },
+    {
+      "id": "lesseps",
+      "name": "Lesseps",
+      "aliases": ["lesseps"]
+    },
+    {
+      "id": "vallcarca",
+      "name": "Vallcarca",
+      "aliases": ["vallcarca"]
+    },
+    {
+      "id": "penitents",
+      "name": "Penitents",
+      "aliases": ["penitents"]
+    },
+    {
+      "id": "vall-d-hebron",
+      "name": "Vall d'Hebron",
+      "aliases": ["valldhebron", "valldehebron"]
+    },
+    {
+      "id": "montbau",
+      "name": "Montbau",
+      "aliases": ["montbau"]
+    },
+    {
+      "id": "mundet",
+      "name": "Mundet",
+      "aliases": ["mundet"]
+    },
+    {
+      "id": "valldaura",
+      "name": "Valldaura",
+      "aliases": ["valldaura"]
+    },
+    {
+      "id": "canyelles",
+      "name": "Canyelles",
+      "aliases": ["canyelles"]
+    },
+    {
+      "id": "roquetes",
+      "name": "Roquetes",
+      "aliases": ["roquetes"]
+    },
+
+    {
+      "id": "la-pau",
+      "name": "La Pau",
+      "aliases": ["lapau"]
+    },
+    {
+      "id": "besos",
+      "name": "Besòs",
+      "aliases": ["besos"]
+    },
+    {
+      "id": "besos-mar",
+      "name": "Besòs Mar",
+      "aliases": ["besosmar"]
+    },
+    {
+      "id": "el-maresme-forum",
+      "name": "El Maresme | Fòrum",
+      "aliases": ["elmaresme", "forum", "elmaresmeforum"]
+    },
+    {
+      "id": "selva-de-mar",
+      "name": "Selva de Mar",
+      "aliases": ["selvademar"]
+    },
+    {
+      "id": "poblenou",
+      "name": "Poblenou",
+      "aliases": ["poblenou"]
+    },
+    {
+      "id": "llacuna",
+      "name": "Llacuna",
+      "aliases": ["llacuna"]
+    },
+    {
+      "id": "bogatell",
+      "name": "Bogatell",
+      "aliases": ["bogatell"]
+    },
+    {
+      "id": "ciutadella-vila-olimpica",
+      "name": "Ciutadella | Vila Olímpica",
+      "aliases": ["ciutadella", "vilaolimpica", "ciutadavilaolimpica"]
+    },
+    {
+      "id": "barceloneta",
+      "name": "Barceloneta",
+      "aliases": ["barceloneta"]
+    },
+    {
+      "id": "jaume-i",
+      "name": "Jaume I",
+      "aliases": ["jaumei", "jaume1"]
+    },
+    {
+      "id": "girona",
+      "name": "Girona",
+      "aliases": ["girona"]
+    },
+    {
+      "id": "verdaguer",
+      "name": "Verdaguer",
+      "aliases": ["verdaguer"]
+    },
+    {
+      "id": "joanic",
+      "name": "Joanic",
+      "aliases": ["joanic"]
+    },
+    {
+      "id": "alfons-x",
+      "name": "Alfons X",
+      "aliases": ["alfonsx", "alfons10"]
+    },
+    {
+      "id": "guinardo-hospital-de-sant-pau",
+      "name": "Guinardó | Hospital de Sant Pau",
+      "aliases": ["guinardo", "hospitaldesantpau", "guinardohospitaldesantpau"]
+    },
+    {
+      "id": "maragall",
+      "name": "Maragall",
+      "aliases": ["maragall"]
+    },
+    {
+      "id": "llucmajor",
+      "name": "Llucmajor",
+      "aliases": ["llucmajor"]
+    },
+    {
+      "id": "via-julia",
+      "name": "Via Júlia",
+      "aliases": ["viajulia"]
+    },
+
+    {
+      "id": "ernest-lluch",
+      "name": "Ernest Lluch",
+      "aliases": ["ernestlluch", "ernestlluc", "ernest lluc"]
+    },
+    {
+      "id": "collblanc",
+      "name": "Collblanc",
+      "aliases": ["collblanc"]
+    },
+    {
+      "id": "badal",
+      "name": "Badal",
+      "aliases": ["badal"]
+    },
+    {
+      "id": "entença",
+      "name": "Entença",
+      "aliases": ["entenca", "entença"]
+    },
+    {
+      "id": "hospital-clinic",
+      "name": "Hospital Clínic",
+      "aliases": ["hospitalclinic", "clinic"]
+    },
+    {
+      "id": "sant-pau-dos-de-maig",
+      "name": "Sant Pau | Dos de Maig",
+      "aliases": ["santpau", "dosdemaig", "santpaudosdemaig"]
+    },
+    {
+      "id": "camp-de-l-arpa",
+      "name": "Camp de l'Arpa",
+      "aliases": ["campdelarpa", "campdelarpa"]
+    },
+    {
+      "id": "congres",
+      "name": "Congrés",
+      "aliases": ["congres"]
+    },
+    {
+      "id": "virrei-amat",
+      "name": "Virrei Amat",
+      "aliases": ["virreiamat"]
+    },
+    {
+      "id": "vilapicina",
+      "name": "Vilapicina",
+      "aliases": ["vilapicina"]
+    },
+    {
+      "id": "horta",
+      "name": "Horta",
+      "aliases": ["horta"]
+    },
+    {
+      "id": "el-carmel",
+      "name": "El Carmel",
+      "aliases": ["elcarmel", "carmel"]
+    },
+    {
+      "id": "el-coll-la-teixonera",
+      "name": "El Coll | La Teixonera",
+      "aliases": ["elcoll", "lateixonera", "elcolllateixonera"]
+    },
+    {
+      "id": "gavarra",
+      "name": "Gavarra",
+      "aliases": ["gavarra"]
+    },
+    {
+      "id": "sant-ildefons",
+      "name": "Sant Ildefons",
+      "aliases": ["santildefons"]
+    },
+    {
+      "id": "can-boixeres",
+      "name": "Can Boixeres",
+      "aliases": ["canboixeres"]
+    },
+    {
+      "id": "can-vidalet",
+      "name": "Can Vidalet",
+      "aliases": ["canvidalet"]
+    },
+    {
+      "id": "pubilla-cases",
+      "name": "Pubilla Cases",
+      "aliases": ["pubillacases"]
+    },
+    {
+      "id": "cornella-centre",
+      "name": "Cornellà Centre",
+      "aliases": ["cornellacentre", "cornellacentro", "cornella"]
+    },
+    {
+      "id": "camp-de-l-arpa",
+      "name": "Camp de l'Arpa",
+      "aliases": ["campdelarpa"]
+    },
+
+    {
+      "id": "onze-de-setembre",
+      "name": "Onze de Setembre",
+      "aliases": ["onzedesetembre", "11desetembre"]
+    },
+    {
+      "id": "bon-pastor",
+      "name": "Bon Pastor",
+      "aliases": ["bonpastor"]
+    },
+    {
+      "id": "can-peixauet",
+      "name": "Can Peixauet",
+      "aliases": ["canpeixauet"]
+    },
+    {
+      "id": "santa-rosa",
+      "name": "Santa Rosa",
+      "aliases": ["santarosa"]
+    },
+    {
+      "id": "esglesia-major",
+      "name": "Església Major",
+      "aliases": ["esglesiamajor", "iglesiamayor"]
+    },
+    {
+      "id": "singuerlin",
+      "name": "Singuerlín",
+      "aliases": ["singuerlin"]
+    },
+    {
+      "id": "can-zam",
+      "name": "Can Zam",
+      "aliases": ["canzam"]
+    },
+
+    {
+      "id": "aeroport-t1",
+      "name": "Aeroport T1",
+      "aliases": ["aeroportt1", "aeropuertot1", "t1"]
+    },
+    {
+      "id": "aeroport-t2",
+      "name": "Aeroport T2",
+      "aliases": ["aeroportt2", "aeropuertot2", "t2"]
+    },
+    {
+      "id": "mas-blau",
+      "name": "Mas Blau",
+      "aliases": ["masblau"]
+    },
+    {
+      "id": "parc-nou",
+      "name": "Parc Nou",
+      "aliases": ["parcnou"]
+    },
+    {
+      "id": "centric",
+      "name": "Cèntric",
+      "aliases": ["centric"]
+    },
+    {
+      "id": "el-prat-estacio",
+      "name": "El Prat Estació",
+      "aliases": ["elpratestacio", "elprat"]
+    },
+    {
+      "id": "les-moreres",
+      "name": "Les Moreres",
+      "aliases": ["lesmoreres"]
+    },
+    {
+      "id": "mercabarna",
+      "name": "Mercabarna",
+      "aliases": ["mercabarna"]
+    },
+    {
+      "id": "parc-logistic",
+      "name": "Parc Logístic",
+      "aliases": ["parclogistic"]
+    },
+    {
+      "id": "fira",
+      "name": "Fira",
+      "aliases": ["fira"]
+    },
+    {
+      "id": "europa-fira",
+      "name": "Europa | Fira",
+      "aliases": ["europafira", "europa", "europafira"]
+    },
+    {
+      "id": "can-tries-gornal",
+      "name": "Can Tries | Gornal",
+      "aliases": ["cantries", "gornal", "cantriesgornal"]
+    },
+
+    {
+      "id": "eco-parc",
+      "name": "Eco parc",
+      "aliases": ["ecoparc", "ecoparc"]
+    },
+    {
+      "id": "port-comercial-la-factoria",
+      "name": "Port Comercial | La Factoria",
+      "aliases": ["portcomercial", "lafactoria", "portcomerciallafactoria"]
+    },
+    {
+      "id": "zona-franca",
+      "name": "Zona Franca",
+      "aliases": ["zonafranca"]
+    },
+    {
+      "id": "foc",
+      "name": "Foc",
+      "aliases": ["foc"]
+    },
+    {
+      "id": "foneria",
+      "name": "Foneria",
+      "aliases": ["foneria"]
+    },
+    {
+      "id": "ciutat-de-la-justicia",
+      "name": "Ciutat de la Justícia",
+      "aliases": ["ciutatdelajusticia", "ciudaddelajusticia"]
+    },
+    {
+      "id": "provencana",
+      "name": "Provençana",
+      "aliases": ["provencana"]
+    },
+    {
+      "id": "zal-riu-vell",
+      "name": "ZAL | Riu Vell",
+      "aliases": ["zal", "riuvell", "zalriuvell"]
+    },
+
+    {
+      "id": "llefia",
+      "name": "Llefià",
+      "aliases": ["llefia"]
+    },
+    {
+      "id": "la-salut",
+      "name": "La Salut",
+      "aliases": ["lasalut"]
+    },
+
+    {
+      "id": "casa-de-l-aigua",
+      "name": "Casa de l'Aigua",
+      "aliases": ["casadelaigua"]
+    },
+    {
+      "id": "torre-baro-vallbona",
+      "name": "Torre Baró | Vallbona",
+      "aliases": ["torrebaro", "vallbona", "torrebarovallbona"]
+    },
+    {
+      "id": "ciutat-meridiana",
+      "name": "Ciutat Meridiana",
+      "aliases": ["ciutatmeridiana"]
+    },
+    {
+      "id": "can-cuias",
+      "name": "Can Cuiàs",
+      "aliases": ["cancuias"]
+    },
+    {
+      "id": "parc-de-montjuic",
+      "name": "Parc de Montjuïc",
+      "aliases": ["parcdemontjuic", "montjuic"]
+    }
+  ],
+  "lines": [
+    {
+      "id": "l1",
+      "name": "L1",
+      "stations": [
+        "hospital-de-bellvitge",
+        "bellvitge",
+        "av-carrilet",
+        "rambla-just-oliveras",
+        "can-serra",
+        "florida",
+        "torrassa",
+        "santa-eulalia",
+        "mercat-nou",
+        "placa-de-sants",
+        "hostafrancs",
+        "espanya",
+        "rocafort",
+        "urgell",
+        "universitat",
+        "catalunya",
+        "urquinaona",
+        "arc-de-triomf",
+        "marina",
+        "glories",
+        "clot",
+        "navas",
+        "la-sagrera",
+        "fabra-i-puig",
+        "sant-andreu",
+        "torras-i-bages",
+        "trinitat-vella",
+        "baro-de-viver",
+        "santa-coloma",
+        "fondo"
+      ]
+    },
+    {
+      "id": "l2",
+      "name": "L2",
+      "stations": [
+        "paral-lel",
+        "sant-antoni",
+        "universitat",
+        "passeig-de-gracia",
+        "tetuan",
+        "monumental",
+        "sagrada-familia",
+        "encants",
+        "clot",
+        "bac-de-roda",
+        "sant-marti",
+        "la-pau",
+        "verneda",
+        "artigues-sant-adria",
+        "sant-roc",
+        "gorg",
+        "pep-ventura",
+        "badalona-pompeu-fabra"
+      ]
+    },
+    {
+      "id": "l3",
+      "name": "L3",
+      "stations": [
+        "zona-universitaria",
+        "palau-reial",
+        "maria-cristina",
+        "les-corts",
+        "placa-del-centre",
+        "sants-estacio",
+        "tarragona",
+        "espanya",
+        "poble-sec",
+        "paral-lel",
+        "drassanes",
+        "liceu",
+        "catalunya",
+        "passeig-de-gracia",
+        "diagonal",
+        "fontana",
+        "lesseps",
+        "vallcarca",
+        "penitents",
+        "vall-d-hebron",
+        "montbau",
+        "mundet",
+        "valldaura",
+        "canyelles",
+        "roquetes",
+        "trinitat-nova"
+      ]
+    },
+    {
+      "id": "l4",
+      "name": "L4",
+      "stations": [
+        "la-pau",
+        "besos",
+        "besos-mar",
+        "el-maresme-forum",
+        "selva-de-mar",
+        "poblenou",
+        "llacuna",
+        "bogatell",
+        "ciutadella-vila-olimpica",
+        "barceloneta",
+        "jaume-i",
+        "urquinaona",
+        "passeig-de-gracia",
+        "girona",
+        "verdaguer",
+        "joanic",
+        "alfons-x",
+        "guinardo-hospital-de-sant-pau",
+        "maragall",
+        "llucmajor",
+        "via-julia",
+        "trinitat-nova"
+      ]
+    },
+    {
+      "id": "l5",
+      "name": "L5",
+      "stations": [
+        "cornella-centre",
+        "gavarra",
+        "sant-ildefons",
+        "can-boixeres",
+        "can-vidalet",
+        "pubilla-cases",
+        "ernest-lluch",
+        "collblanc",
+        "badal",
+        "placa-de-sants",
+        "sants-estacio",
+        "entença",
+        "hospital-clinic",
+        "diagonal",
+        "verdaguer",
+        "sagrada-familia",
+        "sant-pau-dos-de-maig",
+        "camp-de-l-arpa",
+        "la-sagrera",
+        "congres",
+        "maragall",
+        "virrei-amat",
+        "vilapicina",
+        "horta",
+        "el-carmel",
+        "el-coll-la-teixonera",
+        "vall-d-hebron"
+      ]
+    },
+    {
+      "id": "l9n",
+      "name": "L9 Nord",
+      "stations": [
+        "la-sagrera",
+        "onze-de-setembre",
+        "bon-pastor",
+        "can-peixauet",
+        "santa-rosa",
+        "fondo",
+        "esglesia-major",
+        "singuerlin",
+        "can-zam"
+      ]
+    },
+    {
+      "id": "l9s",
+      "name": "L9 Sud",
+      "stations": [
+        "zona-universitaria",
+        "collblanc",
+        "torrassa",
+        "can-tries-gornal",
+        "europa-fira",
+        "fira",
+        "parc-logistic",
+        "mercabarna",
+        "les-moreres",
+        "el-prat-estacio",
+        "centric",
+        "parc-nou",
+        "mas-blau",
+        "aeroport-t2",
+        "aeroport-t1"
+      ]
+    },
+    {
+      "id": "l10n",
+      "name": "L10 Nord",
+      "stations": [
+        "la-sagrera",
+        "onze-de-setembre",
+        "bon-pastor",
+        "llefia",
+        "la-salut",
+        "gorg"
+      ]
+    },
+    {
+      "id": "l10s",
+      "name": "L10 Sud",
+      "stations": [
+        "zal-riu-vell",
+        "eco-parc",
+        "port-comercial-la-factoria",
+        "zona-franca",
+        "foc",
+        "foneria",
+        "ciutat-de-la-justicia",
+        "provencana",
+        "can-tries-gornal",
+        "torrassa",
+        "collblanc"
+      ]
+    },
+    {
+      "id": "l11",
+      "name": "L11",
+      "stations": [
+        "trinitat-nova",
+        "casa-de-l-aigua",
+        "torre-baro-vallbona",
+        "ciutat-meridiana",
+        "can-cuias"
+      ]
+    },
+    {
+      "id": "fm",
+      "name": "FM",
+      "stations": ["paral-lel", "parc-de-montjuic"]
+    }
+  ]
+}
