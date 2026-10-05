@@ -1,4 +1,4 @@
-import { createRouter, createMemoryHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 import SetupSessionView from "./views/SetupSessionView.vue";
 import OngoingSessionView from "./views/OngoingSessionView.vue";
 import FinishedSessionView from "./views/FinishedSessionView.vue";
@@ -10,6 +10,6 @@ const routes = [
 ];
 
 export default createRouter({
-  history: createMemoryHistory(),
+  history: createWebHashHistory(),
   routes,
 });

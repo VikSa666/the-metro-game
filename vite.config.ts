@@ -4,5 +4,5 @@ import { defineConfig } from "vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  base: "/the-metro-game",
+  base: "/the-metro-game/",
 });
