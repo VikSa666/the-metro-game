@@ -2,6 +2,8 @@ export interface Station {
   id: string;
   name: string;
   aliases: string[];
+  x: number;
+  y: number;
 }
 
 export interface MetroSystem {
@@ -16,6 +18,7 @@ export interface Line {
   name?: string;
   // TODO: Ordered id of stations
   stations: string[];
+  color: string;
 }
 
 /**
