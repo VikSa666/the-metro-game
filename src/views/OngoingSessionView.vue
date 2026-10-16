@@ -5,6 +5,7 @@ import { matchStation, type Line } from "../model";
 import { formatTime } from "../helpers";
 import { useRouter } from "vue-router";
 import { onMounted } from "vue";
+import MetroMap from "../components/MetroMap.vue";
 
 const router = useRouter();
 const session = useSessionStore();
@@ -83,6 +84,7 @@ function stopTimer() {
       <input type="text" v-model="guess" @keydown.enter="guessStation" />
       <button @click="guessStation">guess</button>
     </div>
+    <MetroMap :metro-system="session.session?.metro"></MetroMap>
     <div>
       <div v-if="session">
         <p>{{ formatTime(remaining) }}</p>
