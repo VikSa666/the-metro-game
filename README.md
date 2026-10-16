@@ -1,5 +1,7 @@
 # The metro game
 
+Try it in <https://viksa666.github.io/the-metro-game/#/>
+
 Main purpose: have fun and practice with Vue. This aims nothing else.
 
 Used [this](https://imageonline.io/find-coordinates-of-image/) to manually get the coordinates for all stops of Barcelona metro system. Not the best way of doing so...
