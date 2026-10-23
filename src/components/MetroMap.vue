@@ -5,12 +5,17 @@ import { useSessionStore } from "../stores/session";
 
 const session = useSessionStore();
 
+const props = withDefaults(defineProps<{ endedSession?: boolean }>(), {
+  endedSession: false,
+});
+
 const svg = computed(() => {
   if (session.session)
     return generateMetroSvg(session.session.metro, {
       revealedStationIds: new Set(
         session.session.guessedStations.map((s) => s.id)
       ),
+      endedSession: props.endedSession ?? false,
     });
 });
 </script>
@@ -22,6 +27,8 @@ const svg = computed(() => {
 <style scoped>
 .metro-map {
   width: 100%;
-  height: 600px;
+  border: var(--retro-border);
+  box-shadow: var(--retro-shadow);
+  background: white;
 }
 </style>
