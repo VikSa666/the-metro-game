@@ -1,0 +1,36 @@
+:root {
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: bold;
+
+  /* Base */
+  --color-ink: #29251b;
+  --color-ink-inverse: #f5f0df;
+  --color-paper: #f5f0df;
+  --color-paper-inverse: #29251b;
+
+  /* Warm palette */
+  --color-yellow: #e8c547;
+  --color-yellow-hover: #f4d96b;
+  --color-red: #c94c35;
+  --color-red-hover: #db6249;
+  --color-red-dark: #8f352b;
+  --color-brown: #8a5a3b;
+  --color-brown-hover: #a16d4a;
+
+  /* Greens */
+  --color-olive: #71834a;
+  --color-olive-hover: #879b59;
+  --color-sage: #a7ad72;
+
+  /* UI */
+  --border-width: 3px;
+  --shadow-offset: 4px;
+  --retro-border: 3px solid var(--color-ink);
+  --retro-shadow: 4px 4px 0 var(--color-ink);
+}
+
+html {
+  background-color: var(--color-paper);
+  padding: 24px;
+}
