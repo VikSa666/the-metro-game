@@ -4,6 +4,8 @@ export interface Station {
   aliases: string[];
   x: number;
   y: number;
+  labelX?: number;
+  labelY?: number;
 }
 
 export interface MetroSystem {

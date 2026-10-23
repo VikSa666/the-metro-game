@@ -1,0 +1,48 @@
+{
+  "id": "test",
+  "name": "Test Map",
+  "stations": [
+    {
+      "id": "hospital-de-bellvitge",
+      "name": "Hospital de Bellvitge",
+      "aliases": ["hospitaldebellvitge"],
+      "x": 100,
+      "y": 80
+    },
+    {
+      "id": "bellvitge",
+      "name": "Bellvitge",
+      "aliases": ["bellvitge"],
+      "x": 200,
+      "y": 80
+    },
+    {
+      "id": "hola",
+      "name": "Hola",
+      "aliases": ["hola"],
+      "x": 100,
+      "y": 50
+    },
+    {
+      "id": "adios",
+      "name": "Adiós",
+      "aliases": ["adios"],
+      "x": 100,
+      "y": 200
+    }
+  ],
+  "lines": [
+    {
+      "id": "l1",
+      "name": "L1",
+      "stations": ["hospital-de-bellvitge", "bellvitge"],
+      "color": "#990000"
+    },
+    {
+      "id": "l2",
+      "name": "L2",
+      "stations": ["hola", "hospital-de-bellvitge", "adios"],
+      "color": "#000099"
+    }
+  ]
+}
