@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { computed, ref, type Ref } from "vue";
+import { ref, type Ref } from "vue";
 import { useSessionStore } from "../stores/session";
-import { matchStation, type Line } from "../model";
+import { matchStation } from "../model";
 import { formatTime } from "../helpers";
 import { useRouter } from "vue-router";
 import { onMounted } from "vue";
