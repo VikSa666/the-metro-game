@@ -8,7 +8,6 @@ import { onMounted } from "vue";
 import MetroMap from "../components/MetroMap.vue";
 import BasicTextarea from "../components/BasicTextarea.vue";
 import BasicButton from "../components/BasicButton.vue";
-import BasicDropdown from "../components/BasicDropdown.vue";
 
 const router = useRouter();
 const session = useSessionStore();
@@ -45,21 +44,21 @@ function guessStation() {
   }
 }
 
-const guessedByLine = computed(() => {
-  if (!session.session) return;
-  return session.session.metro.lines
-    .map((line: Line) => {
-      const stations = line.stations
-        .map((id) => session.session!.guessedStations.find((s) => s.id === id))
-        .filter(Boolean);
-      return {
-        line,
-        stations,
-        percentage: (stations.length / line.stations.length) * 100,
-      };
-    })
-    .filter((line) => line.stations.length > 0);
-});
+// const guessedByLine = computed(() => {
+//   if (!session.session) return;
+//   return session.session.metro.lines
+//     .map((line: Line) => {
+//       const stations = line.stations
+//         .map((id) => session.session!.guessedStations.find((s) => s.id === id))
+//         .filter(Boolean);
+//       return {
+//         line,
+//         stations,
+//         percentage: (stations.length / line.stations.length) * 100,
+//       };
+//     })
+//     .filter((line) => line.stations.length > 0);
+// });
 
 const remaining = ref(session.session?.duration);
 
