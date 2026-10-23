@@ -7,135 +7,105 @@
       "name": "Hospital de Bellvitge",
       "aliases": ["hospitaldebellvitge"],
       "x": 250,
-      "y": 620,
-      "labelX": 115,
-      "labelY": 382
+      "y": 620
     },
     {
       "id": "bellvitge",
       "name": "Bellvitge",
       "aliases": ["bellvitge"],
       "x": 275,
-      "y": 585,
-      "labelX": 145,
-      "labelY": 382
+      "y": 585
     },
     {
       "id": "av-carrilet",
       "name": "Av. Carrilet",
       "aliases": ["avcarrilet", "carrilet"],
       "x": 310,
-      "y": 560,
-      "labelX": 155,
-      "labelY": 382
+      "y": 560
     },
     {
       "id": "rambla-just-oliveras",
       "name": "Rambla Just Oliveras",
       "aliases": ["ramblajustoliveras", "justoliveras"],
       "x": 350,
-      "y": 515,
-      "labelX": 203,
-      "labelY": 407
+      "y": 515
     },
     {
       "id": "can-serra",
       "name": "Can Serra",
       "aliases": ["canserra"],
       "x": 390,
-      "y": 480,
-      "labelX": 235,
-      "labelY": 382
+      "y": 480
     },
     {
       "id": "florida",
       "name": "Florida",
       "aliases": ["florida"],
       "x": 420,
-      "y": 480,
-      "labelX": 260,
-      "labelY": 382
+      "y": 480
     },
     {
       "id": "torrassa",
       "name": "Torrassa",
       "aliases": ["torrassa"],
       "x": 450,
-      "y": 510,
-      "labelX": 265,
-      "labelY": 382
+      "y": 510
     },
     {
       "id": "santa-eulalia",
       "name": "Santa Eulàlia",
       "aliases": ["santaeulalia"],
       "x": 470,
-      "y": 530,
-      "labelX": 303,
-      "labelY": 407
+      "y": 530
     },
     {
       "id": "mercat-nou",
       "name": "Mercat Nou",
       "aliases": ["mercatnou"],
       "x": 515,
-      "y": 550,
-      "labelX": 330,
-      "labelY": 382
+      "y": 550
     },
     {
       "id": "placa-de-sants",
       "name": "Plaça de Sants",
       "aliases": ["placadesants", "plazadesants"],
       "x": 550,
-      "y": 550,
-      "labelX": 360,
-      "labelY": 382
+      "y": 550
     },
     {
       "id": "hostafrancs",
       "name": "Hostafrancs",
       "aliases": ["hostafrancs"],
       "x": 590,
-      "y": 605,
-      "labelX": 365,
-      "labelY": 382
+      "y": 605
     },
     {
       "id": "espanya",
       "name": "Espanya",
       "aliases": ["espanya", "espana"],
       "x": 630,
-      "y": 660,
-      "labelX": 418,
-      "labelY": 407
+      "y": 660
     },
     {
       "id": "rocafort",
       "name": "Rocafort",
       "aliases": ["rocafort"],
       "x": 680,
-      "y": 660,
-      "labelX": 442,
-      "labelY": 382
+      "y": 660
     },
     {
       "id": "urgell",
       "name": "Urgell",
       "aliases": ["urgell"],
       "x": 720,
-      "y": 660,
-      "labelX": 462,
-      "labelY": 382
+      "y": 660
     },
     {
       "id": "universitat",
       "name": "Universitat",
       "aliases": ["universitat", "universidad"],
       "x": 770,
-      "y": 660,
-      "labelX": 465,
-      "labelY": 382
+      "y": 660
     },
     {
       "id": "catalunya",
@@ -148,1134 +118,882 @@
         "plazacatalunya"
       ],
       "x": 800,
-      "y": 690,
-      "labelX": 513,
-      "labelY": 407
+      "y": 690
     },
     {
       "id": "urquinaona",
       "name": "Urquinaona",
       "aliases": ["urquinaona"],
       "x": 850,
-      "y": 720,
-      "labelX": 545,
-      "labelY": 397
+      "y": 720
     },
     {
       "id": "arc-de-triomf",
       "name": "Arc de Triomf",
       "aliases": ["arcdetriomf", "arcdetriunfo"],
       "x": 905,
-      "y": 720,
-      "labelX": 575,
-      "labelY": 367
+      "y": 720
     },
     {
       "id": "marina",
       "name": "Marina",
       "aliases": ["marina"],
       "x": 975,
-      "y": 720,
-      "labelX": 580,
-      "labelY": 352
+      "y": 720
     },
     {
       "id": "glories",
       "name": "Glòries",
       "aliases": ["glories"],
       "x": 1025,
-      "y": 666,
-      "labelX": 628,
-      "labelY": 372
+      "y": 666
     },
     {
       "id": "clot",
       "name": "Clot",
       "aliases": ["clot"],
       "x": 1075,
-      "y": 590,
-      "labelX": 660,
-      "labelY": 342
+      "y": 590
     },
     {
       "id": "navas",
       "name": "Navas",
       "aliases": ["navas"],
       "x": 1100,
-      "y": 560,
-      "labelX": 685,
-      "labelY": 322
+      "y": 560
     },
     {
       "id": "la-sagrera",
       "name": "La Sagrera",
       "aliases": ["lasagrera", "sagrera"],
       "x": 1130,
-      "y": 515,
-      "labelX": 690,
-      "labelY": 302
+      "y": 515
     },
     {
       "id": "fabra-i-puig",
       "name": "Fabra i Puig",
       "aliases": ["fabraipuig", "fabraipuiq"],
       "x": 1185,
-      "y": 435,
-      "labelX": 738,
-      "labelY": 302
+      "y": 435
     },
     {
       "id": "sant-andreu",
       "name": "Sant Andreu",
       "aliases": ["santandreu"],
       "x": 1270,
-      "y": 395,
-      "labelX": 770,
-      "labelY": 257
+      "y": 395
     },
     {
       "id": "torras-i-bages",
       "name": "Torras i Bages",
       "aliases": ["torrasibages", "torrasibages"],
       "x": 1290,
-      "y": 370,
-      "labelX": 800,
-      "labelY": 237
+      "y": 370
     },
     {
       "id": "trinitat-nova",
       "name": "Trinitat Nova",
       "aliases": ["trinitatnova"],
       "x": 1220,
-      "y": 295,
-      "labelX": 810,
-      "labelY": 202
+      "y": 295
     },
     {
       "id": "trinitat-vella",
       "name": "Trinitat Vella",
       "aliases": ["trinitatvella"],
       "x": 1320,
-      "y": 350,
-      "labelX": 810,
-      "labelY": 217
+      "y": 350
     },
     {
       "id": "baro-de-viver",
       "name": "Baró de Viver",
       "aliases": ["barodeviver"],
       "x": 1370,
-      "y": 350,
-      "labelX": 858,
-      "labelY": 222
+      "y": 350
     },
     {
       "id": "santa-coloma",
       "name": "Santa Coloma",
       "aliases": ["santacoloma"],
       "x": 1405,
-      "y": 390,
-      "labelX": 890,
-      "labelY": 177
+      "y": 390
     },
     {
       "id": "fondo",
       "name": "Fondo",
       "aliases": ["fondo"],
       "x": 1450,
-      "y": 435,
-      "labelX": 920,
-      "labelY": 157
+      "y": 435
     },
     {
       "id": "paral-lel",
       "name": "Paral·lel",
       "aliases": ["parallel", "paralel"],
       "x": 715,
-      "y": 780,
-      "labelX": 460,
-      "labelY": 492
+      "y": 780
     },
     {
       "id": "sant-antoni",
       "name": "Sant Antoni",
       "aliases": ["santantoni"],
       "x": 725,
-      "y": 710,
-      "labelX": 475,
-      "labelY": 442
+      "y": 710
     },
     {
       "id": "passeig-de-gracia-2",
       "name": "Passeig de Gràcia",
       "aliases": ["passeigdegracia", "paseodegracia"],
       "x": 850,
-      "y": 660,
-      "labelX": 563,
-      "labelY": 407
+      "y": 660
     },
     {
       "id": "tetuan",
       "name": "Tetuan",
       "aliases": ["tetuan"],
       "x": 905,
-      "y": 660,
-      "labelX": 585,
-      "labelY": 382
+      "y": 660
     },
     {
       "id": "monumental",
       "name": "Monumental",
       "aliases": ["monumental"],
       "x": 955,
-      "y": 635,
-      "labelX": 605,
-      "labelY": 382
+      "y": 635
     },
     {
       "id": "sagrada-familia",
       "name": "Sagrada Família",
       "aliases": ["sagradafamilia", "sagradafamilia"],
       "x": 960,
-      "y": 550,
-      "labelX": 605,
-      "labelY": 362
+      "y": 550
     },
     {
       "id": "encants",
       "name": "Encants",
       "aliases": ["encants"],
       "x": 1025,
-      "y": 590,
-      "labelX": 643,
-      "labelY": 377
+      "y": 590
     },
     {
       "id": "bac-de-roda",
       "name": "Bac de Roda",
       "aliases": ["bacderoda"],
       "x": 1135,
-      "y": 595,
-      "labelX": 690,
-      "labelY": 342
+      "y": 595
     },
     {
       "id": "sant-marti",
       "name": "Sant Martí",
       "aliases": ["santmarti"],
       "x": 1170,
-      "y": 595,
-      "labelX": 700,
-      "labelY": 342
+      "y": 595
     },
     {
       "id": "verneda",
       "name": "Verneda",
       "aliases": ["verneda"],
       "x": 1265,
-      "y": 595,
-      "labelX": 800,
-      "labelY": 362
+      "y": 595
     },
     {
       "id": "artiges-sant-adria",
       "name": "Artigues | Sant Adrià",
       "aliases": ["artigues", "santadria", "artiguesantadria"],
       "x": 1325,
-      "y": 595,
-      "labelX": 830,
-      "labelY": 382
+      "y": 595
     },
     {
       "id": "sant-roc",
       "name": "Sant Roc",
       "aliases": ["santroc"],
       "x": 1395,
-      "y": 665,
-      "labelX": 840,
-      "labelY": 402
+      "y": 665
     },
     {
       "id": "gorg",
       "name": "Gorg",
       "aliases": ["gorg"],
       "x": 1435,
-      "y": 665,
-      "labelX": 888,
-      "labelY": 447
+      "y": 665
     },
     {
       "id": "pep-ventura",
       "name": "Pep Ventura",
       "aliases": ["pepventura"],
       "x": 1485,
-      "y": 665,
-      "labelX": 920,
-      "labelY": 422
+      "y": 665
     },
     {
       "id": "badalona-pompeu-fabra",
       "name": "Badalona Pompeu Fabra",
       "aliases": ["badalonapompeufabra", "pompeufabra"],
       "x": 1535,
-      "y": 665,
-      "labelX": 950,
-      "labelY": 422
+      "y": 665
     },
     {
       "id": "zona-universitaria",
       "name": "Zona Universitària",
       "aliases": ["zonauniversitaria", "zonauniversitaria"],
       "x": 550,
-      "y": 320,
-      "labelX": 450,
-      "labelY": 294
+      "y": 320
     },
     {
       "id": "palau-reial",
       "name": "Palau Reial",
       "aliases": ["palaureial"],
       "x": 585,
-      "y": 350,
-      "labelX": 581,
-      "labelY": 319
+      "y": 350
     },
     {
       "id": "maria-cristina",
       "name": "Maria Cristina",
       "aliases": ["mariacristina"],
       "x": 630,
-      "y": 380,
-      "labelX": 584,
-      "labelY": 389
+      "y": 380
     },
     {
       "id": "les-corts",
       "name": "Les Corts",
       "aliases": ["lescorts"],
       "x": 630,
-      "y": 450,
-      "labelX": 248,
-      "labelY": 337
+      "y": 450
     },
     {
       "id": "placa-del-centre",
       "name": "Plaça del Centre",
       "aliases": ["placadelcentre", "plazadelcentro"],
       "x": 630,
-      "y": 490,
-      "labelX": 290,
-      "labelY": 332
+      "y": 490
     },
     {
       "id": "sants-estacio",
       "name": "Sants Estació",
       "aliases": ["santsestacio", "santsestacion", "sants"],
       "x": 630,
-      "y": 550,
-      "labelX": 330,
-      "labelY": 352
+      "y": 550
     },
     {
       "id": "tarragona",
       "name": "Tarragona",
       "aliases": ["tarragona"],
       "x": 630,
-      "y": 600,
-      "labelX": 345,
-      "labelY": 362
+      "y": 600
     },
     {
       "id": "poble-sec",
       "name": "Poble Sec",
       "aliases": ["poblesec"],
       "x": 680,
-      "y": 730,
-      "labelX": 440,
-      "labelY": 427
+      "y": 730
     },
     {
       "id": "drassanes",
       "name": "Drassanes",
       "aliases": ["drassanes"],
       "x": 770,
-      "y": 815,
-      "labelX": 465,
-      "labelY": 457
+      "y": 815
     },
     {
       "id": "liceu",
       "name": "Liceu",
       "aliases": ["liceu", "liceo"],
       "x": 770,
-      "y": 765,
-      "labelX": 498,
-      "labelY": 447
+      "y": 765
     },
     {
       "id": "passeig-de-gracia",
       "name": "Passeig de Gràcia",
       "aliases": ["passeigdegracia", "paseodegracia"],
       "x": 830,
-      "y": 620,
-      "labelX": 563,
-      "labelY": 407
+      "y": 620
     },
     {
       "id": "diagonal",
       "name": "Diagonal",
       "aliases": ["diagonal"],
       "x": 830,
-      "y": 535,
-      "labelX": 545,
-      "labelY": 342
+      "y": 535
     },
     {
       "id": "fontana",
       "name": "Fontana",
       "aliases": ["fontana"],
       "x": 830,
-      "y": 450,
-      "labelX": 553,
-      "labelY": 322
+      "y": 450
     },
     {
       "id": "lesseps",
       "name": "Lesseps",
       "aliases": ["lesseps"],
       "x": 860,
-      "y": 385,
-      "labelX": 575,
-      "labelY": 267
+      "y": 385
     },
     {
       "id": "vallcarca",
       "name": "Vallcarca",
       "aliases": ["vallcarca"],
       "x": 860,
-      "y": 345,
-      "labelX": 595,
-      "labelY": 237
+      "y": 345
     },
     {
       "id": "penitents",
       "name": "Penitents",
       "aliases": ["penitents"],
       "x": 880,
-      "y": 300,
-      "labelX": 595,
-      "labelY": 207
+      "y": 300
     },
     {
       "id": "vall-d-hebron",
       "name": "Vall d'Hebron",
       "aliases": ["valldhebron", "valldehebron"],
       "x": 915,
-      "y": 265,
-      "labelX": 633,
-      "labelY": 197
+      "y": 265
     },
     {
       "id": "montbau",
       "name": "Montbau",
       "aliases": ["montbau"],
       "x": 970,
-      "y": 240,
-      "labelX": 660,
-      "labelY": 152
+      "y": 240
     },
     {
       "id": "mundet",
       "name": "Mundet",
       "aliases": ["mundet"],
       "x": 1030,
-      "y": 240,
-      "labelX": 690,
-      "labelY": 142
+      "y": 240
     },
     {
       "id": "valldaura",
       "name": "Valldaura",
       "aliases": ["valldaura"],
       "x": 1070,
-      "y": 250,
-      "labelX": 700,
-      "labelY": 142
+      "y": 250
     },
     {
       "id": "canyelles",
       "name": "Canyelles",
       "aliases": ["canyelles"],
       "x": 1100,
-      "y": 280,
-      "labelX": 748,
-      "labelY": 187
+      "y": 280
     },
     {
       "id": "roquetes",
       "name": "Roquetes",
       "aliases": ["roquetes"],
       "x": 1165,
-      "y": 280,
-      "labelX": 780,
-      "labelY": 182
+      "y": 280
     },
     {
       "id": "la-pau",
       "name": "La Pau",
       "aliases": ["lapau"],
       "x": 1215,
-      "y": 595,
-      "labelX": 768,
-      "labelY": 387
+      "y": 595
     },
     {
       "id": "besos",
       "name": "Besòs",
       "aliases": ["besos"],
       "x": 1215,
-      "y": 665,
-      "labelX": 790,
-      "labelY": 382
+      "y": 665
     },
     {
       "id": "besos-mar",
       "name": "Besòs Mar",
       "aliases": ["besosmar"],
       "x": 1215,
-      "y": 730,
-      "labelX": 790,
-      "labelY": 402
+      "y": 730
     },
     {
       "id": "el-maresme-forum",
       "name": "El Maresme | Fòrum",
       "aliases": ["elmaresme", "forum", "elmaresmeforum"],
       "x": 1200,
-      "y": 775,
-      "labelX": 828,
-      "labelY": 447
+      "y": 775
     },
     {
       "id": "selva-de-mar",
       "name": "Selva de Mar",
       "aliases": ["selvademar"],
       "x": 1155,
-      "y": 775,
-      "labelX": 810,
-      "labelY": 447
+      "y": 775
     },
     {
       "id": "poblenou",
       "name": "Poblenou",
       "aliases": ["poblenou"],
       "x": 1100,
-      "y": 775,
-      "labelX": 780,
-      "labelY": 457
+      "y": 775
     },
     {
       "id": "llacuna",
       "name": "Llacuna",
       "aliases": ["llacuna"],
       "x": 1050,
-      "y": 775,
-      "labelX": 730,
-      "labelY": 457
+      "y": 775
     },
     {
       "id": "bogatell",
       "name": "Bogatell",
       "aliases": ["bogatell"],
       "x": 995,
-      "y": 775,
-      "labelX": 718,
-      "labelY": 482
+      "y": 775
     },
     {
       "id": "ciutadella-vila-olimpica",
       "name": "Ciutadella | Vila Olímpica",
       "aliases": ["ciutadella", "vilaolimpica", "ciutadavilaolimpica"],
       "x": 945,
-      "y": 830,
-      "labelX": 690,
-      "labelY": 457
+      "y": 830
     },
     {
       "id": "barceloneta",
       "name": "Barceloneta",
       "aliases": ["barceloneta"],
       "x": 875,
-      "y": 860,
-      "labelX": 630,
-      "labelY": 472
+      "y": 860
     },
     {
       "id": "jaume-i",
       "name": "Jaume I",
       "aliases": ["jaumei", "jaume1"],
       "x": 850,
-      "y": 770,
-      "labelX": 560,
-      "labelY": 432
+      "y": 770
     },
     {
       "id": "girona",
       "name": "Girona",
       "aliases": ["girona"],
       "x": 870,
-      "y": 625,
-      "labelX": 585,
-      "labelY": 357
+      "y": 625
     },
     {
       "id": "verdaguer",
       "name": "Verdaguer",
       "aliases": ["verdaguer"],
       "x": 885,
-      "y": 550,
-      "labelX": 590,
-      "labelY": 362
+      "y": 550
     },
     {
       "id": "joanic",
       "name": "Joanic",
       "aliases": ["joanic"],
       "x": 905,
-      "y": 475,
-      "labelX": 633,
-      "labelY": 347
+      "y": 475
     },
     {
       "id": "alfons-x",
       "name": "Alfons X",
       "aliases": ["alfonsx", "alfons10"],
       "x": 955,
-      "y": 435,
-      "labelX": 660,
-      "labelY": 292
+      "y": 435
     },
     {
       "id": "guinardo-hospital-de-sant-pau",
       "name": "Guinardó | Hospital de Sant Pau",
       "aliases": ["guinardo", "hospitaldesantpau", "guinardohospitaldesantpau"],
       "x": 1020,
-      "y": 435,
-      "labelX": 685,
-      "labelY": 272
+      "y": 435
     },
     {
       "id": "maragall",
       "name": "Maragall",
       "aliases": ["maragall"],
       "x": 1080,
-      "y": 435,
-      "labelX": 690,
-      "labelY": 252
+      "y": 435
     },
     {
       "id": "llucmajor",
       "name": "Llucmajor",
       "aliases": ["llucmajor"],
       "x": 1135,
-      "y": 380,
-      "labelX": 738,
-      "labelY": 262
+      "y": 380
     },
     {
       "id": "via-julia",
       "name": "Via Júlia",
       "aliases": ["viajulia"],
       "x": 1180,
-      "y": 335,
-      "labelX": 775,
-      "labelY": 222
+      "y": 335
     },
     {
       "id": "ernest-lluch",
       "name": "Ernest Lluch",
       "aliases": ["ernestlluch", "ernestlluc", "ernest lluc"],
       "x": 450,
-      "y": 405,
-      "labelX": 275,
-      "labelY": 342
+      "y": 405
     },
     {
       "id": "collblanc",
       "name": "Collblanc",
       "aliases": ["collblanc"],
       "x": 490,
-      "y": 465,
-      "labelX": 313,
-      "labelY": 367
+      "y": 465
     },
     {
       "id": "badal",
       "name": "Badal",
       "aliases": ["badal"],
       "x": 520,
-      "y": 505,
-      "labelX": 340,
-      "labelY": 362
+      "y": 505
     },
     {
       "id": "entença",
       "name": "Entença",
       "aliases": ["entenca", "entença"],
       "x": 680,
-      "y": 550,
-      "labelX": 408,
-      "labelY": 387
+      "y": 550
     },
     {
       "id": "hospital-clinic",
       "name": "Hospital Clínic",
       "aliases": ["hospitalclinic", "clinic"],
       "x": 735,
-      "y": 550,
-      "labelX": 460,
-      "labelY": 362
+      "y": 550
     },
     {
       "id": "sant-pau-dos-de-maig",
       "name": "Sant Pau | Dos de Maig",
       "aliases": ["santpau", "dosdemaig", "santpaudosdemaig"],
       "x": 1015,
-      "y": 515,
-      "labelX": 645,
-      "labelY": 322
+      "y": 515
     },
     {
       "id": "camp-de-l-arpa",
       "name": "Camp de l'Arpa",
       "aliases": ["campdelarpa", "campdelarpa"],
       "x": 1060,
-      "y": 515,
-      "labelX": 670,
-      "labelY": 322
+      "y": 515
     },
     {
       "id": "congres",
       "name": "Congrés",
       "aliases": ["congres"],
       "x": 1100,
-      "y": 460,
-      "labelX": 708,
-      "labelY": 347
+      "y": 460
     },
     {
       "id": "virrei-amat",
       "name": "Virrei Amat",
       "aliases": ["virreiamat"],
       "x": 1090,
-      "y": 385,
-      "labelX": 740,
-      "labelY": 302
+      "y": 385
     },
     {
       "id": "vilapicina",
       "name": "Vilapicina",
       "aliases": ["vilapicina"],
       "x": 1060,
-      "y": 360,
-      "labelX": 740,
-      "labelY": 277
+      "y": 360
     },
     {
       "id": "horta",
       "name": "Horta",
       "aliases": ["horta"],
       "x": 1030,
-      "y": 330,
-      "labelX": 743,
-      "labelY": 267
+      "y": 330
     },
     {
       "id": "el-carmel",
       "name": "El Carmel",
       "aliases": ["elcarmel", "carmel"],
       "x": 980,
-      "y": 320,
-      "labelX": 695,
-      "labelY": 212
+      "y": 320
     },
     {
       "id": "el-coll-la-teixonera",
       "name": "El Coll | La Teixonera",
       "aliases": ["elcoll", "lateixonera", "elcolllateixonera"],
       "x": 940,
-      "y": 295,
-      "labelX": 665,
-      "labelY": 192
+      "y": 295
     },
     {
       "id": "gavarra",
       "name": "Gavarra",
       "aliases": ["gavarra"],
       "x": 310,
-      "y": 405,
-      "labelX": 155,
-      "labelY": 427
+      "y": 405
     },
     {
       "id": "sant-ildefons",
       "name": "Sant Ildefons",
       "aliases": ["santildefons"],
       "x": 340,
-      "y": 405,
-      "labelX": 175,
-      "labelY": 427
+      "y": 405
     },
     {
       "id": "can-boixeres",
       "name": "Can Boixeres",
       "aliases": ["canboixeres"],
       "x": 365,
-      "y": 405,
-      "labelX": 223,
-      "labelY": 437
+      "y": 405
     },
     {
       "id": "can-vidalet",
       "name": "Can Vidalet",
       "aliases": ["canvidalet"],
       "x": 395,
-      "y": 405,
-      "labelX": 255,
-      "labelY": 392
+      "y": 405
     },
     {
       "id": "pubilla-cases",
       "name": "Pubilla Cases",
       "aliases": ["pubillacases"],
       "x": 425,
-      "y": 405,
-      "labelX": 275,
-      "labelY": 367
+      "y": 405
     },
     {
       "id": "cornella-centre",
       "name": "Cornellà Centre",
       "aliases": ["cornellacentre", "cornellacentro", "cornella"],
       "x": 275,
-      "y": 405,
-      "labelX": 115,
-      "labelY": 427
+      "y": 405
     },
     {
       "id": "camp-de-l-arpa",
       "name": "Camp de l'Arpa",
       "aliases": ["campdelarpa"],
       "x": 1060,
-      "y": 515,
-      "labelX": 670,
-      "labelY": 322
+      "y": 515
     },
     {
       "id": "onze-de-setembre",
       "name": "Onze de Setembre",
       "aliases": ["onzedesetembre", "11desetembre"],
       "x": 1195,
-      "y": 515,
-      "labelX": 725,
-      "labelY": 292
+      "y": 515
     },
     {
       "id": "bon-pastor",
       "name": "Bon Pastor",
       "aliases": ["bonpastor"],
       "x": 1260,
-      "y": 515,
-      "labelX": 740,
-      "labelY": 312
+      "y": 515
     },
     {
       "id": "can-peixauet",
       "name": "Can Peixauet",
       "aliases": ["canpeixauet"],
       "x": 1340,
-      "y": 465,
-      "labelX": 858,
-      "labelY": 297
+      "y": 465
     },
     {
       "id": "santa-rosa",
       "name": "Santa Rosa",
       "aliases": ["santarosa"],
       "x": 1405,
-      "y": 465,
-      "labelX": 890,
-      "labelY": 242
+      "y": 465
     },
     {
       "id": "esglesia-major",
       "name": "Església Major",
       "aliases": ["esglesiamajor", "iglesiamayor"],
       "x": 1450,
-      "y": 400,
-      "labelX": 890,
-      "labelY": 217
+      "y": 400
     },
     {
       "id": "singuerlin",
       "name": "Singuerlín",
       "aliases": ["singuerlin"],
       "x": 1450,
-      "y": 360,
-      "labelX": 928,
-      "labelY": 217
+      "y": 360
     },
     {
       "id": "can-zam",
       "name": "Can Zam",
       "aliases": ["canzam"],
       "x": 1450,
-      "y": 325,
-      "labelX": 950,
-      "labelY": 167
+      "y": 325
     },
     {
       "id": "aeroport-t1",
       "name": "Aeroport T1",
       "aliases": ["aeroportt1", "aeropuertot1", "t1"],
       "x": 210,
-      "y": 890,
-      "labelX": 65,
-      "labelY": 532
+      "y": 890
     },
     {
       "id": "aeroport-t2",
       "name": "Aeroport T2",
       "aliases": ["aeroportt2", "aeropuertot2", "t2"],
       "x": 210,
-      "y": 850,
-      "labelX": 85,
-      "labelY": 562
+      "y": 850
     },
     {
       "id": "mas-blau",
       "name": "Mas Blau",
       "aliases": ["masblau"],
       "x": 210,
-      "y": 810,
-      "labelX": 115,
-      "labelY": 547
+      "y": 810
     },
     {
       "id": "parc-nou",
       "name": "Parc Nou",
       "aliases": ["parcnou"],
       "x": 210,
-      "y": 790,
-      "labelX": 128,
-      "labelY": 552
+      "y": 790
     },
     {
       "id": "centric",
       "name": "Cèntric",
       "aliases": ["centric"],
       "x": 210,
-      "y": 765,
-      "labelX": 120,
-      "labelY": 502
+      "y": 765
     },
     {
       "id": "el-prat-estacio",
       "name": "El Prat Estació",
       "aliases": ["elpratestacio", "elprat"],
       "x": 235,
-      "y": 715,
-      "labelX": 145,
-      "labelY": 472
+      "y": 715
     },
     {
       "id": "les-moreres",
       "name": "Les Moreres",
       "aliases": ["lesmoreres"],
       "x": 275,
-      "y": 745,
-      "labelX": 390,
-      "labelY": 512
+      "y": 745
     },
     {
       "id": "mercabarna",
       "name": "Mercabarna",
       "aliases": ["mercabarna"],
       "x": 335,
-      "y": 775,
-      "labelX": 363,
-      "labelY": 522
+      "y": 775
     },
     {
       "id": "parc-logistic",
       "name": "Parc Logístic",
       "aliases": ["parclogistic"],
       "x": 405,
-      "y": 775,
-      "labelX": 320,
-      "labelY": 482
+      "y": 775
     },
     {
       "id": "fira",
       "name": "Fira",
       "aliases": ["fira"],
       "x": 435,
-      "y": 745,
-      "labelX": 310,
-      "labelY": 467
+      "y": 745
     },
     {
       "id": "europa-fira",
       "name": "Europa | Fira",
       "aliases": ["europafira", "europa", "europafira"],
       "x": 435,
-      "y": 660,
-      "labelX": 285,
-      "labelY": 467
+      "y": 660
     },
     {
       "id": "can-tries-gornal",
       "name": "Can Tries | Gornal",
       "aliases": ["cantries", "gornal", "cantriesgornal"],
       "x": 435,
-      "y": 585,
-      "labelX": 313,
-      "labelY": 467
+      "y": 585
     },
     {
       "id": "eco-parc",
       "name": "Eco parc",
       "aliases": ["ecoparc", "ecoparc"],
       "x": 365,
-      "y": 830,
-      "labelX": 400,
-      "labelY": 507
+      "y": 830
     },
     {
       "id": "port-comercial-la-factoria",
       "name": "Port Comercial | La Factoria",
       "aliases": ["portcomercial", "lafactoria", "portcomerciallafactoria"],
       "x": 415,
-      "y": 830,
-      "labelX": 360,
-      "labelY": 487
+      "y": 830
     },
     {
       "id": "zona-franca",
       "name": "Zona Franca",
       "aliases": ["zonafranca"],
       "x": 460,
-      "y": 830,
-      "labelX": 358,
-      "labelY": 492
+      "y": 830
     },
     {
       "id": "foc",
       "name": "Foc",
       "aliases": ["foc"],
       "x": 490,
-      "y": 745,
-      "labelX": 340,
-      "labelY": 447
+      "y": 745
     },
     {
       "id": "foneria",
       "name": "Foneria",
       "aliases": ["foneria"],
       "x": 490,
-      "y": 690,
-      "labelX": 330,
-      "labelY": 432
+      "y": 690
     },
     {
       "id": "ciutat-de-la-justicia",
       "name": "Ciutat de la Justícia",
       "aliases": ["ciutatdelajusticia", "ciudaddelajusticia"],
       "x": 490,
-      "y": 650,
-      "labelX": 290,
-      "labelY": 417
+      "y": 650
     },
     {
       "id": "provencana",
       "name": "Provençana",
       "aliases": ["provencana"],
       "x": 475,
-      "y": 630,
-      "labelX": 293,
-      "labelY": 422
+      "y": 630
     },
     {
       "id": "zal-riu-vell",
       "name": "ZAL | Riu Vell",
       "aliases": ["zal", "riuvell", "zalriuvell"],
       "x": 320,
-      "y": 830,
-      "labelX": 420,
-      "labelY": 527
+      "y": 830
     },
     {
       "id": "llefia",
       "name": "Llefià",
       "aliases": ["llefia"],
       "x": 1370,
-      "y": 525,
-      "labelX": 858,
-      "labelY": 407
+      "y": 525
     },
     {
       "id": "la-salut",
       "name": "La Salut",
       "aliases": ["lasalut"],
       "x": 1415,
-      "y": 570,
-      "labelX": 885,
-      "labelY": 392
+      "y": 570
     },
     {
       "id": "casa-de-l-aigua",
       "name": "Casa de l'Aigua",
       "aliases": ["casadelaigua"],
       "x": 1250,
-      "y": 265,
-      "labelX": 830,
-      "labelY": 177
+      "y": 265
     },
     {
       "id": "torre-baro-vallbona",
       "name": "Torre Baró | Vallbona",
       "aliases": ["torrebaro", "vallbona", "torrebarovallbona"],
       "x": 1285,
-      "y": 235,
-      "labelX": 840,
-      "labelY": 142
+      "y": 235
     },
     {
       "id": "ciutat-meridiana",
       "name": "Ciutat Meridiana",
       "aliases": ["ciutatmeridiana"],
       "x": 1290,
-      "y": 185,
-      "labelX": 888,
-      "labelY": 142
+      "y": 185
     },
     {
       "id": "can-cuias",
       "name": "Can Cuiàs",
       "aliases": ["cancuias"],
       "x": 1290,
-      "y": 155,
-      "labelX": 920,
-      "labelY": 92
+      "y": 155
     },
     {
       "id": "parc-de-montjuic",
       "name": "Parc de Montjuïc",
       "aliases": ["parcdemontjuic", "montjuic"],
       "x": 660,
-      "y": 780,
-      "labelX": 400,
-      "labelY": 492
+      "y": 780
     }
   ],
   "lines": [
