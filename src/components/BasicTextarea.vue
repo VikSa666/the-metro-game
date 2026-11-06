@@ -10,7 +10,7 @@ const text = defineModel<string>();
 input {
   box-sizing: border-box;
   resize: vertical;
-  min-width: 200px;
+  min-width: 100px;
 
   background: transparent;
   color: var(--color-ink);

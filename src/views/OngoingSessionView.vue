@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onUnmounted, ref, type Ref } from "vue";
 import { useSessionStore } from "../stores/session";
-import { matchStation } from "../model";
+import { matchStation, type Station } from "../model";
 import { formatTime } from "../helpers";
 import { useRouter } from "vue-router";
 import { onMounted } from "vue";
@@ -22,8 +22,16 @@ function end() {
 
 const guess = ref("");
 const matchMsg = ref("");
+const guessFeedback: Ref<"NoGuess" | "NewGuess" | "AlreadyGuessed"> =
+  ref("NoGuess");
+
+/**
+ * Checks if a station is a guess and explicit message
+ * is provided
+ */
 function guessStation() {
   if (!session.session) return;
+  if (!guess.value) return;
   const matchedStation = matchStation(guess.value, session.session.metro);
   if (matchedStation) {
     if (
@@ -31,18 +39,42 @@ function guessStation() {
     ) {
       matchMsg.value =
         "L'estació " + matchedStation.name + " ja ha estat endevinada";
+      guessFeedback.value = "AlreadyGuessed";
       return;
     }
     matchMsg.value = "Estació endevinada! " + matchedStation.name;
-    session.addGuessedStation(matchedStation);
-    guess.value = "";
-    totalPercentage.value =
-      (session.session!.guessedStations.length * 100) /
-      session.session!.metro.stations.length;
-    console.log(totalPercentage.value);
+    guessFeedback.value = "NewGuess";
+    registerGuessedStation(matchedStation);
   } else {
     matchMsg.value = "Estació inexistent...";
+    guessFeedback.value = "NoGuess";
   }
+}
+
+/**
+ * Checks if a station is a guess without explicit message
+ */
+function checkGuess() {
+  if (!session.session) return;
+  const matchedStation = matchStation(guess.value, session.session.metro);
+  if (
+    matchedStation &&
+    !session.session.guessedStations.find((s) => s.id === matchedStation.id)
+  ) {
+    registerGuessedStation(matchedStation);
+    matchMsg.value = "Estació endevinada! " + matchedStation.name;
+    guessFeedback.value = "NewGuess";
+  }
+}
+
+function registerGuessedStation(matchedStation: Station) {
+  if (!session.session) return;
+  session.addGuessedStation(matchedStation);
+  guess.value = "";
+  totalPercentage.value =
+    (session.session!.guessedStations.length * 100) /
+    session.session!.metro.stations.length;
+  console.log(totalPercentage.value);
 }
 
 // const guessedByLine = computed(() => {
@@ -104,10 +136,22 @@ const scoreMode: Ref<"number" | "percentage"> = ref("number");
       <div class="wrapperTextarea">
         <h1>ESCRIU L'ESTACIÓ I PRESSIONA ENTER PER ENDEVINAR</h1>
         <div class="guessTextarea">
-          <BasicTextarea v-model="guess" @keydown.enter="guessStation" />
+          <BasicTextarea
+            v-model="guess"
+            @input="checkGuess"
+            @keydown.enter.prevent="guessStation"
+          />
           <BasicButton @click="guessStation">Endevinar</BasicButton>
         </div>
-        <p>{{ matchMsg }}</p>
+        <p
+          :class="{
+            noGuess: guessFeedback === 'NoGuess',
+            alreadyGuessed: guessFeedback === 'AlreadyGuessed',
+            newGuess: guessFeedback === 'NewGuess',
+          }"
+        >
+          {{ matchMsg }}
+        </p>
       </div>
 
       <div class="score">
@@ -177,9 +221,22 @@ const scoreMode: Ref<"number" | "percentage"> = ref("number");
 
   p {
     font-size: 10px;
-    color: var(--color-brown);
     min-height: 12px;
     margin: 0;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+  }
+  .noGuess {
+    color: var(--color-red);
+  }
+
+  .alreadyGuessed {
+    color: var(--color-brown);
+  }
+
+  .newGuess {
+    color: var(--color-olive);
   }
 }
 
