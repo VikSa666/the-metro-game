@@ -19,7 +19,7 @@ function escapeXml(value: string): string {
 export function generateMetroSvg(
   metro: MetroSystem,
   options: SvgOptions = {}
-): string {
+): { svg: string; width: number; height: number } {
   const {
     width = 2400,
     padding = 20,
@@ -30,8 +30,12 @@ export function generateMetroSvg(
   console.log(endedSession);
 
   if (metro.stations.length === 0) {
-    return `<svg xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 ${width}" />`;
+    return {
+      svg: `<svg xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 ${width}" />`,
+      width,
+      height: 0,
+    };
   }
 
   const stationById = new Map(
@@ -183,7 +187,8 @@ export function generateMetroSvg(
     })
     .join("\n");
 
-  return `
+  return {
+    svg: `
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 ${width} ${height}"
@@ -194,5 +199,8 @@ export function generateMetroSvg(
       ${lineSvg}
       ${stationSvg}
     </svg>
-  `;
+  `,
+    width,
+    height,
+  };
 }
