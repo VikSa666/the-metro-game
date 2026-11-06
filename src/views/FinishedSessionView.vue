@@ -5,6 +5,7 @@ import { formatTime } from "../helpers";
 import MetroMap from "../components/MetroMap.vue";
 import BasicCard from "../components/BasicCard.vue";
 import BasicButton from "../components/BasicButton.vue";
+import MetroLineMap from "../components/MetroLineMap.vue";
 
 const router = useRouter();
 const session = useSessionStore();
@@ -38,6 +39,15 @@ function backToMenu() {
         <BasicButton @click="backToMenu">Tornar a l'inici</BasicButton>
       </div>
     </BasicCard>
+    <BasicCard>
+      <div class="results">
+        <MetroLineMap
+          v-for="line in session.session.metro.lines"
+          :line-id="line.id"
+          :ended-session="true"
+        />
+      </div>
+    </BasicCard>
     <MetroMap :metro-system="session.session?.metro" :ended-session="true" />
   </div>
 </template>
@@ -54,6 +64,7 @@ function backToMenu() {
 .results {
   display: flex;
   flex-direction: column;
+  min-width: 0;
   gap: 24px;
   align-items: stretch;
 

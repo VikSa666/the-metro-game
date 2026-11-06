@@ -8,6 +8,10 @@
 
 <style scoped>
 .card {
+  box-sizing: border-box;
+  min-width: 0;
+  width: auto;
+  max-width: calc(100% - 48px);
   padding: 24px;
   margin: 24px;
   background-color: var(--color-paper);
