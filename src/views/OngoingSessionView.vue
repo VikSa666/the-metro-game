@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, type Ref } from "vue";
+import { onUnmounted, ref, type Ref } from "vue";
 import { useSessionStore } from "../stores/session";
 import { matchStation } from "../model";
 import { formatTime } from "../helpers";
@@ -15,7 +15,8 @@ const session = useSessionStore();
 function end() {
   console.log("Session ended, redirecting to results page...");
   stopTimer();
-  session.time = remaining.value ?? 0;
+  session.time = remaining.value;
+  session.persistSession();
   router.push("/results");
 }
 
@@ -33,7 +34,7 @@ function guessStation() {
       return;
     }
     matchMsg.value = "Estació endevinada! " + matchedStation.name;
-    session.session.guessedStations.push(matchedStation);
+    session.addGuessedStation(matchedStation);
     guess.value = "";
     totalPercentage.value =
       (session.session!.guessedStations.length * 100) /
@@ -63,27 +64,28 @@ function guessStation() {
 const remaining = ref(0);
 
 let timer: number | undefined;
-let startedAt = 0;
 
 function startTimer() {
   if (!session.session) {
     router.replace("/");
     return;
   }
-  remaining.value = session.session.duration;
-  startedAt = Date.now();
+
+  session.updateTime();
+  remaining.value = session.time;
 
   timer = window.setInterval(() => {
-    const elapsed = Math.floor((Date.now() - startedAt) / 1000);
-    remaining.value = Math.max(0, session.session!.duration - elapsed);
+    session.updateTime();
+    remaining.value = session.time;
 
-    if (remaining.value === 0) {
+    if (remaining.value <= 0) {
       end();
     }
-  }, 100);
+  }, 1000);
 }
 
 onMounted(() => startTimer());
+onUnmounted(() => stopTimer());
 
 function stopTimer() {
   if (timer !== undefined) {
