@@ -21,7 +21,9 @@ const svg = computed(() => {
 </script>
 
 <template>
-  <div class="metro-map" v-html="svg" />
+  <div class="mapViewport">
+    <div class="metro-map" v-html="svg" />
+  </div>
 </template>
 
 <style scoped>
@@ -30,5 +32,36 @@ const svg = computed(() => {
   border: var(--retro-border);
   box-shadow: var(--retro-shadow);
   background: white;
+}
+
+.mapViewport {
+  width: 100%;
+  min-width: 0;
+  overflow: auto;
+  border: 2px solid var(--color-brown);
+}
+
+/* Móvil */
+@media (max-width: 600px) {
+  .mapViewport {
+    height: 55dvh;
+    min-height: 280px;
+    max-height: 500px;
+    overflow: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .mapViewport :deep(.metro-map) {
+    width: max-content;
+    min-width: 0;
+  }
+
+  .mapViewport :deep(svg) {
+    display: block;
+    width: 1200px !important;
+    height: auto !important;
+    max-width: none !important;
+  }
 }
 </style>

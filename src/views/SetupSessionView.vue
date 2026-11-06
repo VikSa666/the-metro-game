@@ -6,6 +6,7 @@ import { useSessionStore } from "../stores/session.ts";
 import { useRouter } from "vue-router";
 import BasicButton from "../components/BasicButton.vue";
 import BasicDropdown from "../components/BasicDropdown.vue";
+import BasicCard from "../components/BasicCard.vue";
 
 const router = useRouter();
 
@@ -46,10 +47,9 @@ function start() {
     console.error("El metro escollit no existeix");
     return;
   } else {
-    setTimeout(() => {
-      session.startSession(chosenMetro.metro, mapDuration(duration.value));
-      router.push("/game");
-    }, 1000);
+    session.startSession(chosenMetro.metro, mapDuration(duration.value));
+    router.push("/game");
+    console.log("start");
   }
 }
 
@@ -65,21 +65,28 @@ const availableDurations = [
 
 <template>
   <div class="main">
-    <div class="card">
-      <BasicDropdown
-        v-model="metro"
-        :availableOptions="metroOptions.map((option) => option.id)"
-        label="Mapa de metro"
-      />
-      <BasicDropdown
-        v-model="duration"
-        :availableOptions="availableDurations"
-        label="Duració"
-      />
-      <BasicButton :disabled="!duration || !metro" @click="start">
-        Començar
-      </BasicButton>
-    </div>
+    <h1>Benvinguts al joc del metro</h1>
+    <p>
+      Escull un mapa del metro (per ara només existeix Barcelona) i el temps i
+      intenta endevinar quantes més estacions millor!
+    </p>
+    <BasicCard>
+      <div class="card">
+        <BasicDropdown
+          v-model="metro"
+          :availableOptions="metroOptions.map((option) => option.id)"
+          label="Mapa de metro"
+        />
+        <BasicDropdown
+          v-model="duration"
+          :availableOptions="availableDurations"
+          label="Duració"
+        />
+        <BasicButton :disabled="!duration || !metro" @click="start">
+          Començar
+        </BasicButton>
+      </div>
+    </BasicCard>
   </div>
 </template>
 
@@ -98,8 +105,5 @@ const availableDurations = [
   justify-content: center;
   gap: 15px;
   width: fit-content;
-  color: #29251b;
-  border: 3px solid #29251b;
-  padding: 24px;
 }
 </style>
